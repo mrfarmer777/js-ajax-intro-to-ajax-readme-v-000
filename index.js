@@ -2,6 +2,10 @@ function getRepositories(){
   //req is a new XMLHttpRequest object
   const req = new XMLHttpRequest();
   
+  //Listen for a response
+  //listen for a load event, showRespositories is the callback
+  req.addEventListener("load",showRepositories);
+  
   //Construct the request
   req.open("GET", 'https://api.github.com/users/octocat/repos');
   
@@ -11,8 +15,3 @@ function getRepositories(){
 }
 
 
-function getRepositories(){
-  const req= new XMLHttpRequest()
-  req.addEventListener("load",showRespositories);
-  req.open
-}
