@@ -14,4 +14,7 @@ function getRepositories(){
   req.send();
 }
 
+function showRespositories(event,data){
+  console.log(this.responseText);
+}
 
