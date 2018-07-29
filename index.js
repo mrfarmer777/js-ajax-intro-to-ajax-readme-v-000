@@ -1,4 +1,4 @@
-function showRespositories(event,data){
+function showRepositories(event,data){
   console.log(this.responseText);
 }
 
