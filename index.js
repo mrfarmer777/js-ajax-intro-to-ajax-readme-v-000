@@ -9,3 +9,10 @@ function getRepositories(){
   //Send the request
   req.send();
 }
+
+
+function getRepositories(){
+  const req= new XMLHttpRequest()
+  req.addEventListener("load",showRespositories);
+  req.open
+}
