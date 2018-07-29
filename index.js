@@ -1,3 +1,7 @@
+function showRespositories(event,data){
+  console.log(this.responseText);
+}
+
 function getRepositories(){
   //req is a new XMLHttpRequest object
   const req = new XMLHttpRequest();
@@ -14,7 +18,5 @@ function getRepositories(){
   req.send();
 }
 
-function showRespositories(event,data){
-  console.log(this.responseText);
-}
+
 
